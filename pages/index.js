@@ -146,9 +146,9 @@ class Index extends Component {
                             <tbody>
                                 <tr>
                                     <td width="210" style="vertical-align: middle; text-align: center; padding: 0 30px 0 50px">
-                                        <a style="display: block;" href="https://www.newhavenmortgage.com"><img style="border: none;" width="180" src="https://www.windsordigital.in/wp-content/uploads/2021/11/wdigital.png" /></a>
+										<img width='210' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
                                     </td>
-                                    <td width="1"><hr style='border:0; border-left: 1px solid black; height: 70px;' /></td>
+                                    <td width="1"><hr style='border:0; border-left: 2px solid black; height: 100px;' /></td>
                                     <td width="600" style="vertical-align: middle; text-align: center; padding: 0 0px 0 30px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
@@ -161,20 +161,20 @@ class Index extends Component {
                                                 <td style='font-size: 24px;'>${sign.designation}</td>
                                             </tr>
                                             <tr>
-                                                <td style='padding: 3px 0;'>
+                                                <td style='padding: 5px 0;'>
                                                     <table width="600" cellspacing="0" cellpadding="0" border="0">
                                                         <tr style='font-size: 10px;'>
-                                                            <td style='font-size: 16px;'><span style='color: #f2c201;'>P</span>: +${sign.phone}</td>
-                                                            <td style='font-size: 16px;'><span style='color: #f2c201;'>E</span>: ${sign.email}</td>
+                                                            <td style='font-size: 16px;'><span style='color: #f2c201;'>P</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='tel:+${sign.phone}'>+${sign.phone}</a></td>
+                                                            <td style='font-size: 16px;'><span style='color: #f2c201;'>E</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='mailto: ${sign.email}'>${sign.email}</a></td>
                                                         </tr>
                                                     </table>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 16px;'><span style='color: #f2c201;'>W</span>: www.windsorindia.com</td>
+                                                <td style='font-size: 16px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 10px;'><span style='color: lightblue;'>LI</span></td>
+                                                <td style='padding-top: 10px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 20px; height: 20px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -191,6 +191,10 @@ class Index extends Component {
 					<div style={{ marginBottom: '50px' }}>
 						{ html }
 					</div>
+					<div style={{ marginBottom: '50px' }}>
+						<iframe width='100%' height='200' srcdoc={ html }></iframe>
+					</div>
+
 				</div>
 			)
 		})
