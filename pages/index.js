@@ -142,39 +142,39 @@ class Index extends Component {
             const html = `
                 <html>
                     <body style="margin: 10px 0">
-                        <table style='font-family: Helvetica;' width="811" cellspacing="0" cellpadding="0" border="0">
+                        <table style='font-family: Helvetica;' width="761" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
                                 <tr>
-                                    <td width="210" style="vertical-align: middle; text-align: center; padding: 0 30px 0 50px">
-										<img width='210' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
+                                    <td width="160" style="vertical-align: middle; text-align: center; padding: 0 30px">
+										<img width='160' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
                                     </td>
                                     <td width="1"><hr style='border:0; border-left: 2px solid black; height: 100px;' /></td>
                                     <td width="600" style="vertical-align: middle; text-align: center; padding: 0 0px 0 30px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 28.5px; color: #8b69fe;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: 24px; color: #8b69fe;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 22.2px;font-weight: bold;'>${sign.company}</td>
+                                                <td style='font-size: 18px;font-weight: bold;'>${sign.company}</td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 23px;'>${sign.designation}</td>
+                                                <td style='font-size: 18px;'>${sign.designation}</td>
                                             </tr>
                                             <tr>
                                                 <td style='padding: 5px 0;'>
                                                     <table width="600" cellspacing="0" cellpadding="0" border="0">
                                                         <tr style='font-size: 10px;'>
-                                                            <td style='font-size: 15px;'><span style='color: #f2c201;'>P</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='tel:+${sign.phone}'>+${sign.phone}</a></td>
-                                                            <td style='font-size: 15px;'><span style='color: #f2c201;'>E</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='mailto: ${sign.email}'>${sign.email}</a></td>
+                                                            <td style='font-size: 11px;'><span style='color: #f2c201;'>P</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='tel:+${sign.phone}'>+${sign.phone}</a></td>
+                                                            <td style='font-size: 11px;'><span style='color: #f2c201;'>E</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='mailto: ${sign.email}'>${sign.email}</a></td>
                                                         </tr>
                                                     </table>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 15px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
+                                                <td style='font-size: 11px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
                                             </tr>
                                             <tr>
-                                                <td style='padding-top: 10px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 20px; height: 20px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
+                                                <td style='padding-top: 10px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
                                             </tr>
                                         </table>
                                     </td>
