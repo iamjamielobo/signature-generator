@@ -152,16 +152,16 @@ class Index extends Component {
                                     <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 20px; color: #8b69fe;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: 18px; color: #8b69fe;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 15px;font-weight: bold;'>${sign.company}</td>
+                                                <td style='font-size: 14px;font-weight: bold;'>${sign.company}</td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 15px;'>${sign.designation}</td>
+                                                <td style='font-size: 14px;'>${sign.designation}</td>
                                             </tr>
                                             <tr>
-                                                <td style='padding: 5px 0;'>
+                                                <td style='padding: 4px 0;'>
                                                     <table width="450" cellspacing="0" cellpadding="0" border="0">
                                                         <tr>
                                                             <td style='font-size: 12px;'><span style='color: #f2c201;'>P</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='tel:+${sign.phone}'>+${sign.phone}</a></td>
@@ -174,7 +174,7 @@ class Index extends Component {
                                                 <td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
                                             </tr>
                                             <tr>
-                                                <td style='padding-top: 10px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
+                                                <td style='padding-top: 8px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
                                             </tr>
                                         </table>
                                     </td>
