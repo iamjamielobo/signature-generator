@@ -192,7 +192,7 @@ class Index extends Component {
 						{ html }
 					</div>
 					<div style={{ marginBottom: '50px' }}>
-						<iframe width='100%' height='200' srcdoc={ html }></iframe>
+						<iframe width='100%' height='150' srcdoc={ html }></iframe>
 					</div>
 
 				</div>
