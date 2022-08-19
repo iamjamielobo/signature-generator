@@ -148,17 +148,17 @@ class Index extends Component {
                                     <td width="180" style="vertical-align: middle; text-align: center; padding: 0 20px 0 10px">
 										<img width='120' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
                                     </td>
-                                    <td width="1"><hr style='border:0; border-left: 2px solid black; height: 100px;' /></td>
+                                    <td width="1"><hr style='border:0; border-left: 2px solid black; height: 90px;' /></td>
                                     <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
                                                 <td><span style='font-weight: bold; font-size: 22px; color: #8b69fe;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 18px;font-weight: bold;'>${sign.company}</td>
+                                                <td style='font-size: 16px;font-weight: bold;'>${sign.company}</td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 18px;'>${sign.designation}</td>
+                                                <td style='font-size: 16px;'>${sign.designation}</td>
                                             </tr>
                                             <tr>
                                                 <td style='padding: 5px 0;'>
