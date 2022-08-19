@@ -142,17 +142,17 @@ class Index extends Component {
             const html = `
                 <html>
                     <body style="margin: 10px 0">
-                        <table style='font-family: Helvetica;' width="761" cellspacing="0" cellpadding="0" border="0">
+                        <table style='font-family: Helvetica;' width="631" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
                                 <tr>
-                                    <td width="160" style="vertical-align: middle; text-align: center; padding: 0 30px">
-										<img width='160' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
+                                    <td width="180" style="vertical-align: middle; text-align: center; padding: 0 20px 0 10px">
+										<img width='120' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
                                     </td>
                                     <td width="1"><hr style='border:0; border-left: 2px solid black; height: 100px;' /></td>
-                                    <td width="450" style="vertical-align: middle; text-align: center; padding: 0 0px 0 30px;">
+                                    <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 24px; color: #8b69fe;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: 22px; color: #8b69fe;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
                                                 <td style='font-size: 18px;font-weight: bold;'>${sign.company}</td>
