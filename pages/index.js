@@ -187,7 +187,7 @@ class Index extends Component {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>www.windsorindia.com</a></td>
+                                                <td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>${sign.companyUrl}</a></td>
                                             </tr>
                                             <tr>
                                                 <td style='padding-top: 8px; ${ sign.linkedin ? '' : 'display: none;' }'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
