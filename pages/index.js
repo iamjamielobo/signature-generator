@@ -202,7 +202,7 @@ class Index extends Component {
             `
 
 			return (
-				<div key={sign.name} >
+				<div style={{ padding: '0 50px' }} key={sign.name} >
 					<h1 style={{ display: 'flex', alignItems: 'center'}}>{sign.name} <button style={{ marginLeft: '50px'}} onClick={ () => myFunction(html) }>Copy HTML</button></h1>
 					<div style={{ marginBottom: '50px' }}>
 						{ html }
