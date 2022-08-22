@@ -168,7 +168,7 @@ class Index extends Component {
                                     <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 18px; color: #8b69fe;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: 18px; color: #000;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
                                                 <td style='font-size: 14px;font-weight: bold;'>${sign.company}</td>
