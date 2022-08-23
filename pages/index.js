@@ -1,150 +1,135 @@
 import React, { Component } from 'react'
+import Link from 'next/link'
 
 const data = [
-    {
-        "name": "Mira Saraf",
-        "designation": "Vice President | ICF Certified Coach | Trainer",
-        "company": "PrisMind",
-        "phone": "91 98113 72806",
-        "email": "mira.saraf@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/mira-saraf-acc-917b39b",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Nachiket Joshi",
-        "designation": "Manager of Program Design & Delivery",
-        "company": "PrisMind",
-        "phone": "91 81692 22252",
-        "email": "nachiket.joshi@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/nachiket-joshi-9281b75a/",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Bhargav Patwardhan",
-        "designation": "Experiential Educator / Facilitator",
-        "company": "PrisMind",
-        "phone": "91 98196 89281",
-        "email": "bhargav.patwardhan@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/bhargav-patwardhan-3949a876/",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Farheen Sayed",
-        "designation": "Experiential Educator / Facilitator",
-        "company": "PrisMind",
-        "phone": "91 70455 12876",
-        "email": "farheen.sayed@prismindindia.com",
-        "linkedin": null,
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Akash Srivastava",
-        "designation": "Creative Genius",
-        "company": "PrisMind",
-        "phone": "91 8377836659",
-        "email": "akash.srivastava@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/akash-srivastava-76991422a",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Rakesh Saraf",
-        "designation": "Mentor",
-        "company": "PrisMind",
-        "phone": "91 98111 02036",
-        "email": "rakesh.saraf@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/rakesh-saraf-a8b382/",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Ashish Aggarwal",
-        "designation": "Client Relationship Manager",
-        "company": "PrisMind",
-        "phone": "91 98100 33173",
-        "email": "ashish.aggarwal@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/ashish-aggarwal-a2a89943",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Kawita Kumari",
-        "designation": "Client Relationship Manager",
-        "company": "PrisMind",
-        "phone": "91 99102 00746",
-        "email": "kawita.kumari@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/kawita-kumari-176b86121",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Ankur Khasnis",
-        "designation": "Client Relationship Manager",
-        "company": "PrisMind",
-        "phone": "91 99300 06179",
-        "email": "ankur.khasnis@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/ankurkhasnis",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Shruti Sood",
-        "designation": "Associate Vice President - HR and Admin",
-        "company": "PrisMind",
-        "phone": "91 99713 02028",
-        "email": "shruti.sood@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/shruti-sood-b4657b50",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Ashok Meher",
-        "designation": "Associate Vice President - Finance",
-        "company": "PrisMind",
-        "phone": "91 98186 46302",
-        "email": "ashok.meher@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/ashok-meher-005a2263",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Ravi Singh",
-        "designation": "Accounts Officer",
-        "company": "PrisMind",
-        "phone": "91 90159 61068",
-        "email": "ravi.singh@prismindindia.com",
-        "linkedin": null,
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Sandhya Murukan",
-        "designation": "Program Operations Manager",
-        "company": "PrisMind",
-        "phone": "91 98995 48613",
-        "email": "sandhya.murukan@prismindindia.com",
-        "linkedin": "https://www.linkedin.com/in/sandhya-murukan-78713ab1",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Shruti Sood",
-        "designation": "Associate Vice President - HR and Admin",
-        "company": "Windsor Specialty Services",
-        "phone": "91 99713 02028",
-        "email": "shruti@windsorindia.com",
-        "linkedin": "https://www.linkedin.com/in/shruti-sood-b4657b50",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Sony Kunwar",
-        "designation": "Senior Vice President",
-        "company": "Windsor Specialty Services",
-        "phone": "91 99998 03651",
-        "email": "sony@windsorindia.com",
-        "linkedin": "https://www.linkedin.com/in/sony-kunwar-54359432",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Varsha Patwal",
-        "designation": "Manager - Strategic Planning",
-        "company": "Windsor Specialty Services",
-        "phone": "91 87430 80427",
-        "email": "varsha@windsorindia.com",
-        "linkedin": "https://www.linkedin.com/in/varsha-patwal-ab78ba17b",
-        "companyUrl": "https://www.prismindindia.com/"
-    }
+	{
+		name: 'Akash Srivastava',
+		designation: 'Creative Genius',
+		company: 'Windsor Specialty Services',
+		phone: '91 8377836659',
+		email: 'akash.srivastava@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/akash-srivastava-76991422a',
+	},
+	{
+		name: 'Ambrita Banerjee',
+		designation: 'Associate Manager - Operations',
+		company: 'Windsor Specialty Services',
+		phone: '91 95827 00420',
+		email: 'ambrita@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/ambrita-banarjee-7135951b0',
+	},
+	{
+		name: 'Ankur Khasnis',
+		designation: 'Manager - Marketing',
+		company: 'Windsor Specialty Services',
+		phone: '91 99300 06179',
+		email: 'ankur.khasnis@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/ankurkhasnis',
+	},
+	{
+		name: 'Ashish Aggarwal',
+		designation: 'Vice President',
+		company: 'Windsor Specialty Services',
+		phone: '91 98100 33173',
+		email: 'ashish@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/ashish-aggarwal-a2a89943',
+	},
+	{
+		name: 'Ashok Kumar Meher',
+		designation: 'Associate Vice President - Finance',
+		company: 'Windsor Specialty Services',
+		phone: '91 98186 46302',
+		email: 'ashok@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/ashok-meher-005a2263',
+	},
+	{
+		name: 'Chetna Dalal',
+		designation: 'Executive - HR and Admin',
+		company: 'Windsor Specialty Services',
+		phone: '91 81306 80833',
+		email: 'chetna.dalal@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/chetna-d-8b70b81a0',
+	},
+	{
+		name: 'Jaya Rautela',
+		designation: 'Associate Vice President - Logistics and Operations',
+		company: 'Windsor Specialty Services',
+		phone: '91 98113 68985',
+		email: 'jaya@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/jaya-rautela-6034b440',
+	},
+	{
+		name: 'Kawita Kumari',
+		designation: 'Senior Manager - Marketing and Strategy',
+		company: 'Windsor Specialty Services',
+		phone: '91 99102 00746',
+		email: 'kawita.kumari@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/kawita-kumari-176b86121',
+	},
+	{
+		name: 'Mira Saraf',
+		designation: 'Vice President',
+		company: 'Windsor Specialty Services',
+		phone: '91 98113 72806',
+		email: 'mira@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/mira-saraf-acc-917b39b',
+	},
+	{
+		name: 'Rakesh Saraf',
+		designation: 'Director',
+		company: 'Windsor Specialty Services',
+		phone: '91 98111 02036',
+		email: 'rakesh@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/rakesh-saraf-a8b382"',
+	},
+	{
+		name: 'Ram Upadhyay',
+		designation: 'Head - Technology Strategy',
+		company: 'Windsor Specialty Services',
+		phone: '91 88285 16942',
+		email: 'ram.upadhyay@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/ramupadhyay55"',
+	},
+	{
+		name: 'Ravi Kumar',
+		designation: 'Accounts Officer',
+		company: 'Windsor Specialty Services',
+		phone: '91 90159 61068',
+		email: 'ravi@windsorindia.com',
+		linkedin: null,
+	},
+	{
+		name: 'Sandhya Murukan',
+		designation: 'Brand Services Manager',
+		company: 'Windsor Specialty Services',
+		phone: '91 98995 48613',
+		email: 'msandhya@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/sandhya-murukan-78713ab1',
+	},
+	{
+		name: 'Shruti Sood',
+		designation: 'Associate Vice President - HR and Admin',
+		company: 'Windsor Specialty Services',
+		phone: '91 99713 02028',
+		email: 'shruti@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/shruti-sood-b4657b50',
+	},
+	{
+		name: 'Sony Kunwar',
+		designation: 'Senior Vice President',
+		company: 'Windsor Specialty Services',
+		phone: '91 99998 03651',
+		email: 'sony@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/sony-kunwar-54359432',
+	},
+	{
+		name: 'Varsha Patwal',
+		designation: 'Manager - Strategic Planning',
+		company: 'Windsor Specialty Services',
+		phone: '91 87430 80427',
+		email: 'varsha@windsorindia.com',
+		linkedin: 'https://www.linkedin.com/in/varsha-patwal-ab78ba17b',
+	},
 ]
 
 const myFunction = (html) => {
@@ -162,13 +147,13 @@ class Index extends Component {
                             <tbody>
                                 <tr>
                                     <td width="160" style="vertical-align: middle; text-align: center; padding: 0 20px 0 10px">
-										<a href='${sign.companyUrl}'><img width='75' style="border: none;" src="https://www.windsordigital.in/assets/img/prismind-logo.jpg" /></a>
+										<img width='100' style="border: none;" src="https://www.windsordigital.in/assets/img/windsor-speciality-01.png" />
                                     </td>
                                     <td width="1"><hr style='border:0; border-left: 2px solid black; height: 90px;' /></td>
                                     <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 18px; color: #000;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: 18px; color: #8b69fe;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
                                                 <td style='font-size: 14px;font-weight: bold;'>${sign.company}</td>
@@ -187,10 +172,10 @@ class Index extends Component {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>${sign.companyUrl}</a></td>
+                                                <td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
                                             </tr>
                                             <tr>
-                                                <td style='padding-top: 8px; ${ sign.linkedin ? '' : 'display: none;' }'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
+                                                <td style='padding-top: 8px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsordigital.in/assets/img/LinkedIn.jpg' /></a></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -217,6 +202,11 @@ class Index extends Component {
 
 		return (
 			<div>
+                <div style={{ margin: '50px'}}>
+                    <Link href="/prism">
+                        <a><h1>Prism Signatures Here</h1></a>
+                    </Link>
+                </div>
 				<p>{signatures}</p>
 			</div>
 		)

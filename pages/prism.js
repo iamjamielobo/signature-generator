@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from 'next/link'
 
 const data = [
     {
@@ -217,6 +218,11 @@ class Index extends Component {
 
 		return (
 			<div>
+                <div style={{ margin: '50px'}}>
+                    <Link href="/">
+                        <a><h1>Windsor Signatures Here</h1></a>
+                    </Link>
+                </div>
 				<p>{signatures}</p>
 			</div>
 		)
