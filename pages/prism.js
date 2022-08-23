@@ -118,33 +118,6 @@ const data = [
         "email": "sandhya.murukan@prismindindia.com",
         "linkedin": "https://www.linkedin.com/in/sandhya-murukan-78713ab1",
         "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Shruti Sood",
-        "designation": "Associate Vice President - HR and Admin",
-        "company": "Windsor Specialty Services",
-        "phone": "91 99713 02028",
-        "email": "shruti@windsorindia.com",
-        "linkedin": "https://www.linkedin.com/in/shruti-sood-b4657b50",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Sony Kunwar",
-        "designation": "Senior Vice President",
-        "company": "Windsor Specialty Services",
-        "phone": "91 99998 03651",
-        "email": "sony@windsorindia.com",
-        "linkedin": "https://www.linkedin.com/in/sony-kunwar-54359432",
-        "companyUrl": "https://www.prismindindia.com/"
-    },
-    {
-        "name": "Varsha Patwal",
-        "designation": "Manager - Strategic Planning",
-        "company": "Windsor Specialty Services",
-        "phone": "91 87430 80427",
-        "email": "varsha@windsorindia.com",
-        "linkedin": "https://www.linkedin.com/in/varsha-patwal-ab78ba17b",
-        "companyUrl": "https://www.prismindindia.com/"
     }
 ]
 
