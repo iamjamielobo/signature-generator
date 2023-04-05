@@ -24,7 +24,7 @@ const data = [
         company: 'Netaquila Solutions Private Limited'
     },
     {
-        name: "Atul Pokriyal",
+        name: "Atul Pokhriyal",
         designation: "Vice President",
         email: "apokhriyal@netaquila.com",
         phone: "99998 83872",
