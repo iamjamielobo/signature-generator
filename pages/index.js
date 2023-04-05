@@ -203,8 +203,8 @@ class Index extends Component {
 		return (
 			<div>
                 <div style={{ margin: '50px'}}>
-                    <Link href="/prism">
-                        <a><h1>Prism Signatures Here</h1></a>
+                    <Link href="/netaquila">
+                        <a><h1>Netaquila Signatures Here</h1></a>
                     </Link>
                 </div>
 				<p>{signatures}</p>

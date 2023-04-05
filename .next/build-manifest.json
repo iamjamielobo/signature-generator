@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/prism": [
+    "/netaquila": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/prism.js"
+      "static/chunks/pages/netaquila.js"
     ]
   },
   "ampFirstPages": []
