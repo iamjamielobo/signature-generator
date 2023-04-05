@@ -62,7 +62,7 @@ const data = [
         name: "Rajesh Lakhera",
         designation: "Shift Manager",
         email: "rlakera@netaquila.com",
-        phone: "9868161952\n8368318398",
+        phone: "9868161952/8368318398",
         company: 'Netaquila Solutions Private Limited'
     },
     {
