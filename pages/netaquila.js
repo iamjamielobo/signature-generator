@@ -7,84 +7,96 @@ const data = [
         designation: "Director",
         email: "rakesh@netaquila.com",
         phone: "98111 02036",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/rakesh-saraf-a8b382/'
     },
     {
         name: "Mira Saraf",
         designation: "Executive Director",
         email: "mira@netaquila.com",
         phone: "98113 72806",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/mira-saraf-acc-917b39b/'
     },
     {
         name: "Sony Kunwar",
         designation: "Senior Vice President & Director - Innovation",
         email: "skunwar@netaquila.com",
         phone: "99998 03651",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/sony-kunwar-54359432/'
     },
     {
         name: "Atul Pokhriyal",
         designation: "Vice President",
         email: "apokhriyal@netaquila.com",
         phone: "99998 83872",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/atul-pokhriyal-812a591b/'
     },
     {
         name: "Shruti Sood",
         designation: "Vice President - HR & Admin",
         email: "ssood@netaquila.com",
         phone: "99713 02028",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/shruti-sood-b4657b50/'
     },
     {
         name: "Ashok Meher",
         designation: "Vice President - Finance & KPO",
         email: "ameher@netaquila.com",
         phone: "98186 46302",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/ashok-meher-005a2263/'
     },
     {
         name: "Ravi Singh",
         designation: "Associate Manager - Accounts",
         email: "rksingh@netaquila.com",
         phone: "90159 61068",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/ravi-singh-05756b52/'
     },
     {
         name: "Rachna Gupta",
         designation: "Shift Manager",
         email: "rgupta@netaquila.com",
         phone: "64 220881794",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: 'https://www.linkedin.com/in/rachna-gupta-39000550/'
     },
     {
         name: "Rajesh Lakhera",
         designation: "Shift Manager",
         email: "rlakhera@netaquila.com",
         phone: "9868161952/8368318398",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: ''
     },
     {
         name: "Premanand Roy",
         designation: "Shift Manager",
         email: "proy@netaquila.com",
         phone: "98912 34975",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: ''
     },
     {
         name: "Byomkesh Mukherjee",
         designation: "Quality Manager",
         email: "bmukherjee@netaquila.com",
         phone: "93542 03950",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: ''
     },
     {
         name: "Sandeep Sarkar",
         designation: "Quality Manager",
         email: "ssarkar@netaquila.com",
         phone: "97182 99085",
-        company: 'Netaquila Solutions Private Limited'
+        company: 'Netaquila Solutions Private Limited',
+        linkedin: ''
     }
 ]
 
@@ -132,6 +144,13 @@ class Index extends Component {
                                             <tr>
                                                 <td style='font-size: 12px;'><span style='color: black;'>W</span>: <a style='text-decoration: none; color: inherit;' href='http://www.netaquila.com/'>www.netaquila.com/</a></td>
                                             </tr>
+                                            ${
+                                                sign.linkedin ? `
+                                                    <tr>
+                                                        <td style='padding-top: 8px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsorindia.com/wp-content/uploads/2023/02/linkedin.png' /></a></td>
+                                                    </tr>
+                                                ` : ''
+                                            }
                                         </table>
                                     </td>
                                 </tr>
@@ -155,11 +174,6 @@ class Index extends Component {
                     </body>
                 </html>
             `
-
-
-        //     <tr>
-        //     <td style='padding-top: 8px;'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsorindia.com/wp-content/uploads/2023/02/linkedin.png' /></a></td>
-        // </tr>
 
 			return (
 				<div style={{ padding: '0 50px' }} key={sign.name} >
