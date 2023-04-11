@@ -68,11 +68,11 @@ const data = [
     },
     {
         name: "Rajesh Lakhera",
-        designation: "Shift Manager",
+        designation: "Operations Manager",
         email: "rlakhera@netaquila.com",
-        phone: "9868161952/8368318398",
+        phone: "98681 61952",
         company: 'Netaquila Solutions Private Limited',
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/rajesh-lakhera-188a5315'
     },
     {
         name: "Premanand Roy",
