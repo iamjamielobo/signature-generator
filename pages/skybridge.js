@@ -28,7 +28,7 @@ class Index extends Component {
             const html = `
                 <html>
                     <body style="margin: 10px 0">
-                        <table style='font-family: sans-serif; background-color: #101010; background-image: url("https://www.windsorindia.com/signature/white-icon.png"); background-size: 425px; background-repeat: no-repeat; background-position: 315px center;' width="650" cellspacing="0" cellpadding="0" border="0">
+                        <table style='font-family: Verdana; background-color: #101010; background-image: url("https://www.windsorindia.com/signature/white-icon.png"); background-size: 425px; background-repeat: no-repeat; background-position: 315px center;' width="650" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
                                 <tr>
                                     <td width="650" style="vertical-align: middle; text-align: center; padding: 25px 10px 25px 20px;">
