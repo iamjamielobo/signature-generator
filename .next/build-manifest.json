@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/skybridge": [
+    "/in-vino-veritos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/skybridge.js"
+      "static/chunks/pages/in-vino-veritos.js"
     ]
   },
   "ampFirstPages": []
