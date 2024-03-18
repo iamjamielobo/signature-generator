@@ -90,29 +90,29 @@ class Index extends Component {
                         <table style='font-family: Helvetica;' width="631" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
                                 <tr>
-                                    <td width="160" style="vertical-align: middle; text-align: center; padding: 0px; border-right: 2px solid #C59000;">
-										<a href='${sign.companyUrl}'><img width='250px' style="border: none;" src="https://www.windsorindia.com/IVV-logo.png" /></a>
+                                    <td width="160" style="vertical-align: middle; text-align: center; padding: 0px; border-right: 2px solid #C59000; padding: 20px 30px 20px 10px;">
+										<a href='${sign.companyUrl}'><img width='200px' style="border: none;" src="https://windsorindia.com/ivv.jpeg" /></a>
                                     </td>
                                     <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 30px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 24px; color: #000;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: 30px; color: #000;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 16px; font-weight: bold;padding: 5px 0 8px;'>${sign.designation}</td>
+                                                <td style='font-size: 20px; font-weight: bold;padding: 5px 0 8px;'>${sign.designation}</td>
                                             </tr>
                                             <tr>
                                                 <td style='padding: 0 0 8px;'>
-                                                    <table width="450" cellspacing="0" cellpadding="0" border="0">
+                                                    <table width="650" cellspacing="0" cellpadding="0" border="0">
                                                         <tr>
-                                                            <td style='font-size: 14px;'><span style='color: #5F1436; font-weight: bold;'>P</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='tel:+${sign.phone}'>+${sign.phone}</a></td>
-                                                            <td style='font-size: 14px;'><span style='color: #5F1436; font-weight: bold;'>E</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='mailto: ${sign.email}'>${sign.email}</a></td>
+                                                            <td style='font-size: 18px;'><span style='color: #5F1436; font-weight: bold;'>P</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='tel:+${sign.phone}'>+${sign.phone}</a></td>
+                                                            <td style='font-size: 18px;'><span style='color: #5F1436; font-weight: bold;'>E</span>: <a  target='_blank' style='text-decoration: none; color: inherit;' href='mailto: ${sign.email}'>${sign.email}</a></td>
                                                         </tr>
                                                     </table>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 14px;'><span style='color: #5F1436; font-weight: bold;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>${sign.companyUrl}</a></td>
+                                                <td style='font-size: 18px;'><span style='color: #5F1436; font-weight: bold;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>${sign.companyUrl}</a></td>
                                             </tr>
                                             <tr>
                                                 <td style='padding-top: 8px; ${ sign.linkedin ? '' : 'display: none;' }'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsorindia.com/wp-content/uploads/2023/02/linkedin.png' /></a></td>
