@@ -112,7 +112,7 @@ class Index extends Component {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style='font-size: 12px;'><span style='color: #5F1436; font-weight: bold;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>${sign.companyUrl}</a></td>
+                                                <td style='font-size: 12px;'><span style='color: #5F1436; font-weight: bold;'>W</span>: <a style='text-decoration: none; color: inherit;' href='${sign.companyUrl}'>www.invinoveritas.life</a></td>
                                             </tr>
                                             <tr>
                                                 <td style='padding-top: 8px; ${ sign.linkedin ? '' : 'display: none;' }'><a target='_blank' href='${sign.linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsorindia.com/wp-content/uploads/2023/02/linkedin.png' /></a></td>
