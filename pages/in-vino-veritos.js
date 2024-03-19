@@ -87,7 +87,7 @@ class Index extends Component {
             const html = `
                 <html>
                     <body style="margin: 10px 0">
-                        <table style='font-family: Helvetica;' width="631" cellspacing="0" cellpadding="0" border="0">
+                        <table style='font-family: verdana;' width="631" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
                                 <tr>
                                     <td width="160" style="vertical-align: middle; text-align: center; padding: 0px; border-right: 2px solid #C59000; padding: 10px 20px 10px 10px;">
