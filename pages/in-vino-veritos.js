@@ -84,10 +84,12 @@ class Index extends Component {
 	render() {
 		const signatures = data.map((sign) => {
 
+            const temp = sign.name === 'Mira Saraf'
+
             const html = `
                 <html>
                     <body style="margin: 10px 0">
-                        <table style='font-family: verdana;' width="631" cellspacing="0" cellpadding="0" border="0">
+                        <table style='font-family: Verdana;' width="631" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
                                 <tr>
                                     <td width="160" style="vertical-align: middle; text-align: center; padding: 0px; border-right: 2px solid #C59000; padding: 10px 20px 10px 10px;">
@@ -96,7 +98,7 @@ class Index extends Component {
                                     <td width="450" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
                                         <table cellpadding="0" border="0" style="text-align: left;" align="left">
                                             <tr>
-                                                <td><span style='font-weight: bold; font-size: 18px; color: #000;'>${sign.name}</span></td>
+                                                <td><span style='font-weight: bold; font-size: ${ temp ? '18px' : '16px'}; color: #000;'>${sign.name}</span></td>
                                             </tr>
                                             <tr>
                                                 <td style='font-size: 14px; font-weight: bold;padding: 5px 0 8px;'>${sign.designation}</td>
