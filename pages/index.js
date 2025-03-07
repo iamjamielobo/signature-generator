@@ -218,7 +218,7 @@ class Index extends Component {
 																					<td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
 																			</tr>
 																			<tr>
-																					<td style='padding-top: 8px;'><a target='_blank' href='${linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsorindia.com/wp-content/uploads/2023/02/linkedin.png' /></a></td>
+																					<td style=''><span style='font-size: 12px; color: #f2c201;'>Li</span>: <a style='color: inherit; font-size: 12px;' target='_blank' href='${linkedin}'>${linkedin}</a></td>
 																			</tr>
 																	</table>
 															</td>
@@ -267,7 +267,7 @@ class Index extends Component {
 																					<td style='font-size: 12px;'><span style='color: #f2c201;'>W</span>: <a style='text-decoration: none; color: inherit;' href='https://www.windsorindia.com'>www.windsorindia.com</a></td>
 																			</tr>
 																			<tr>
-																					<td style='padding-top: 8px;'><a target='_blank' href='${linkedin}'><img style='width: 17px; height: 17px;' src='https://www.windsorindia.com/wp-content/uploads/2023/02/linkedin.png' /></a></td>
+																					<td style=''><span style='font-size: 12px; color: #f2c201;'>Li</span>: <a style='color: inherit; font-size: 12px;' target='_blank' href='${linkedin}'>${linkedin}</a></td>
 																			</tr>
 																	</table>
 															</td>
@@ -285,10 +285,10 @@ class Index extends Component {
         const htmlTemp2 = `
 					<html>
 							<body style="margin: 10px 0">
-									<table style='font-family: Helvetica;' width="800" cellspacing="0" cellpadding="0" border="0">
+									<table style='font-family: Helvetica;border:1px solid #dbdbdb;border-radius: 5px;' width="800" cellspacing="0" cellpadding="0" border="0">
 											<tbody>
 													<tr>
-															<td width="380" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
+															<td width="380" style="vertical-align: middle; text-align: center; padding: 15px 10px 15px 20px;">
 																	<table cellpadding="0" border="0" style="text-align: left;" align="left">
 																			<tr>
 																					<td style='width:80%'><span style='font-weight: bold; font-size: 18px; color: #8b69fe;'>${name}</span></td>
@@ -298,7 +298,7 @@ class Index extends Component {
 																					<td style='font-size: 14px;font-weight: bold;padding: 4px 0;'>${company}</td>
 																			</tr>
 																			<tr>
-																					<td style='font-size: 14px;'>${designation}</td>
+																					<td style='font-size: 14px;padding-bottom: 15px;'>${designation}</td>
 																			</tr>
 																			<tr>
 																					<td style='padding: 4px 0;'>
@@ -319,8 +319,8 @@ class Index extends Component {
 															<td width="130" style="vertical-align: middle; text-align: center; padding: 0 0px 0 20px;">
 																<img width='110' style="border: none;" src="https://www.windsorindia.com/wp-content/uploads/2022/09/windsor-logo.png" />
 															</td>
-															<td width="140" style="vertical-align: middle; text-align: center; padding: 0 0px 0 20px">
-																	<img width='110' style="border: none;" src='${greatPlaceToWorkImg}' />
+															<td width="120" style="vertical-align: baseline; text-align: center; padding: 0 20px">
+																	<img width='100' style="border: none;" src='${greatPlaceToWorkImg}' />
 															</td>
 													</tr>
 											</tbody>
