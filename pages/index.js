@@ -154,10 +154,10 @@ class Index extends Component {
 		const htmlTemp2 = `
 					<html>
 							<body style="margin: 10px 0">
-									<table style='font-family: Helvetica;border:1px solid #dbdbdb;border-radius: 5px;' width="800" cellspacing="0" cellpadding="0" border="0">
+									<table style='font-family: Helvetica;border:1px solid #dbdbdb;border-radius: 5px;' width="700" cellspacing="0" cellpadding="0" border="0">
 											<tbody>
 													<tr>
-															<td width="380" style="vertical-align: middle; text-align: center; padding: 15px 10px 15px 20px;">
+															<td width="380" style="vertical-align: middle; text-align: center; padding: 15px 0px 15px 10px;">
 																	<table cellpadding="0" border="0" style="text-align: left;" align="left">
 																			<tr>
 																					<td><span style='font-weight: bold; font-size: 18px; color: #8b69fe;'>${name}</span></td>
@@ -186,11 +186,11 @@ class Index extends Component {
 																			</tr>
 																	</table>
 															</td>
-															<td width="1" style='padding-left: 20px;'><hr style='border:0; border-left: 2px solid #dbdbdb; height: 120px;' /></td>
+															<td width="1" style=''><hr style='border:0; border-left: 2px solid #dbdbdb; height: 120px;' /></td>
 															<td width="130" style="vertical-align: middle; text-align: center; padding: 0 0px 0 20px;">
 																<img width='110' style="border: none;" src="https://www.windsorindia.com/wp-content/uploads/2022/09/windsor-logo.png" />
 															</td>
-															<td width="120" style="vertical-align: baseline; text-align: center; padding: 0 20px">
+															<td width="120" style="vertical-align: baseline; text-align: center; padding: 0 10px">
 																	<img width='100' style="border: none;" src='${greatPlaceToWorkImg}' />
 															</td>
 													</tr>
