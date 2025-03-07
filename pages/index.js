@@ -193,7 +193,7 @@ class Index extends Component {
 							<img width='110' style="border: none;" src="https://www.windsorindia.com/wp-content/uploads/2022/09/windsor-logo.png" />
 															</td>
 															<td width="1"><hr style='border:0; border-left: 2px solid black; height: 80px;' /></td>
-															<td width="380" style="vertical-align: middle; text-align: center; padding: 0 10px 0 20px;">
+															<td width="380" style="vertical-align: middle; text-align: center; padding: 0 0px 0 20px;">
 																	<table cellpadding="0" border="0" style="text-align: left;" align="left">
 																			<tr>
 																					<td><span style='font-weight: bold; font-size: 18px; color: #8b69fe;'>${name}</span></td>
@@ -222,7 +222,7 @@ class Index extends Component {
 																			</tr>
 																	</table>
 															</td>
-															<td width="130" style="vertical-align: unset; text-align: center; padding: 0 0px 0 20px;">
+															<td width="130" style="vertical-align: unset; text-align: center; padding: 0;">
 																<img width='110' style="border: none;" src='${greatPlaceToWorkImg}' />
 															</td>
 													</tr>
