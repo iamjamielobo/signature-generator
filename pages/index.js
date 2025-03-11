@@ -260,7 +260,7 @@ class Index extends Component {
 					<h1 style={{ display: 'flex', alignItems: 'center' }}>
 						<button
 							onClick={() => myFunction(html)}>
-							HTML
+							Copy HTML
 						</button>
 					</h1>
 					<div style={{ marginBottom: '50px' }}>
